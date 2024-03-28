@@ -1,0 +1,121 @@
+body {
+    background-color: blanchedalmond;
+    font-family: Comic Sans MS, sans-serif, Arial;
+    font-size: 17px;
+    color: coral;
+    line-height: 45px;
+    /* background-image: url(../images/pattern.png); */   
+}
+
+.title {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: none;
+}
+
+.fakts {
+/* font-style: italic; */
+    text-align: justify;
+    letter-spacing: 2px;
+} 
+
+/* p {
+    text-indent: 20px
+} */
+
+ul {
+    list-style-type: square;
+    list-style-position: inside;
+    color: dodgerblue;
+}
+
+.table {
+    width: 100%;
+    border: 1px dashed #12c95b;
+    border-collapse: collapse;
+    /* table-layout: fixed;*/
+}
+
+.table th {
+    padding: 5px 10px;
+    text-align: left;
+    color: crimson;
+}
+
+.table td {
+    border: 1px dashed #12c95b;
+    padding: 5px 10px 5px 10px;
+    /* display: block; */
+    /* table-top: 1px; */
+}
+
+.interesting {
+    color: darkblue;
+    font-weight: bold;
+}
+
+.content {
+    margin-bottom: 50px;
+}
+
+.footer {
+    text-align: center;
+}
+
+/*Story*/
+
+.story {
+    width: 700px;
+    margin-left: auto;
+    padding: 15px 25px;
+    margin-right: auto;
+    border: 1px solid #ddd;
+    background: url(../images/bg.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.story-title {
+    margin: 0 0 20px 10;
+    color: #1cc74c;
+}
+
+.story-text p {
+    margin: 0 0 10px 0;
+}
+
+/*Gradient*/
+
+.gradient {
+    width: 600px;
+    height: 300px;
+    background-image: linear-gradient(to top, #3beb6a, #19e3dc);
+    margin: 0 auto;
+}
+
+.gradient-1 {
+    width: 600px;
+    height: 300px;
+    background-image: linear-gradient(45deg, #3beb6a, #19e3dc);
+    margin: 0 auto;
+}
+
+.gradient-2 {
+    width: 600px;
+    height: 300px;
+    background-image: linear-gradient(#3beb6a, #19e3dc, #2b0aad, #b51adb);
+    margin: 0 auto;
+}
+
+.gradient-3 {
+     width: 600px;
+    height: 300px;
+    background-image: radial-gradient(circle, #19e3dc, #2b0aad);
+    margin: 0 auto;
+}
+/*.gradient {
+    width: 600px;
+    height: 300px;
+    background-image: linear-gradient(#3beb6a 10%, #19e3dc 40%, #2b0aad 11%, #b51adb);
+}*/
+
+/*nothing special, just two table*/

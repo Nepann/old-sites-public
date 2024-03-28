@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+
+    /* background: url("img/bg.jpg") center no-repeat;
+    background-size: cover;
+    background-attachment: fixed; */
+
+    background-image: url("img/pattern.png");
+    background-attachment: fixed;
+}
+
+.container {
+    width: 800px;
+    height: 2000px;
+    margin: 0 auto;
+
+    background-image: linear-gradient(to top, #fff, #ccc);
+}
