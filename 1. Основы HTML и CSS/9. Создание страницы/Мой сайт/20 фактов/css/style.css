@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: fantasy, Tahoma;
+    font-size: 15px;
+    color: cornflowerblue;
+    line-height: 1.5;
+    background-image: url(../img/bg.png)
+}
+
+.page {
+    width: 800px;
+    margin: 20px auto;
+    background-image: linear-gradient(220.55deg, #FFEB3A 0%, #4DEF8E 100%);
+}
+
+/* Header */
+
+.header {
+    padding: 20px;
+    background-color: bisque; }
+    
+.header-title {
+    font-size: 24px;
+    color: darkseagreen;
+    margin: 0;
+    text-align: center;
+}
+
+.header-subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    color: darkseagreen;
+    text-align: center;
+}
+
+/* Nav */
+
+.nav {
+    text-align: center;
+}
+
+.nav-link {
+    display: inline-block;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: coral; 
+}
+
+.nav-link:hover {
+    background-color: crimson;
+}
+
+/*Content*/
+
+.content {
+    padding: 20px;
+    margin: 0;
+    border-bottom: 1px solid #ced2d9
+}
+
+.link {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.image {
+    margin: 10px auto 20px;
+    display: block;
+}
+
+/*Footer*/
+
+.footer {
+    padding: 20px;
+    color: burlywood;
+    text-align: center;
+}
