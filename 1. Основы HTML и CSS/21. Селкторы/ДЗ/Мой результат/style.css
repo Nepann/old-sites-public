@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #121212;
+}
+
+hr {
+    margin: 30px 0;
+}
+
+.container {
+    width: 800px;
+    padding: 15px;
+    margin: 20px auto;
+}
+
+
+
+/* Nav
+===============*/
+
+.nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding: 10px;
+
+    background-color: #f4f4f4;
+}
+
+.nav-link {
+    padding: 0 15px;
+
+    text-decoration: none;
+    color: #121212;
+    border-left: 1px solid #ccc;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.nav-link:first-child {
+    border-left: none
+}
+
+
+
+/* Table
+===============*/
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+
+    font-size: 15px;
+}
+
+.table th {
+    background-color: #ebebeb;
+    text-align: left;
+}
+
+.table th,
+.table td {
+    padding: 10px;
+}
+
+.table td {
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.table tbody tr {
+    border-bottom: none;
+}
+
+.table tbody td :hover:nth-of-type(even) {
+    color: #cecece;
+    
+}
+
+
+/* Radio
+===============*/
+
+.label {
+    color: #ccc;
+}
+
+
+

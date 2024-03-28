@@ -1,0 +1,20 @@
+<!DOCTYPE HTMLl>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Вставки видео и аудио</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <video src="files/test-audio-video/video.mp4" width="720" height="405" controls loop muted autoplay></video>
+        <video src="files/test-audio-video/video.mp4" width="720" height="405" controls loop muted preload></video>
+        <video src="files/test-audio-video/video.mp4" width="720" height="405" controls poster="files/test-audio-video/poster.jpg"></video>
+        <video width="720" height="405" controls poster="files/test-audio-video/poster.jpg">
+            <source src="files/test-audio-video/video.mp4" type="ivdeo/mp4">
+            <source src="files/test-audio-video/video.mp4" type="video/avi">
+            <p>Ваш браузер не поддреживает HTML5 видео.</p>
+        </video>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/sBN8KsYXFsM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <audio src="files/test-audio-video/audio.mp3" controls></audio>
+    </body>
+</html>
