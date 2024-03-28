@@ -1,0 +1,141 @@
+html {
+    font-size: 15px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+*,
+* :before,
+* :after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Page
+==============*/
+
+.page {
+    width: 100%;
+    height: 100vh;
+    background: #000 url(../img/bg.jpg) center no-repeat;
+    background-size: cover;
+}
+
+/* Header
+==============*/
+
+.header {
+    margin-bottom: 110px;
+    background-color: #2B7DED;
+    padding: 1rem;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    display: block;
+}
+
+.header-nav-link {
+    color: white;
+    margin-left: 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color .2s linear;
+}
+
+.header-nav {
+    display: flex;
+}
+
+.header-nav-link:hover {
+    color: #b2e3fd;
+}
+
+.header-nav-link.active {
+    position: relative;
+}
+
+.header-nav-link.active:after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+}
+
+/* Content
+==============*/
+
+.content {
+    width: 565px;
+}
+
+.subtitle {
+    font-size: 1.4rem;
+    color: rgba(255, 255 255 .6);
+    font-weight: 300;
+}
+
+.title {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 36px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.title span {
+    color: #287DED;
+}
+
+.text {
+    font-size: 1rem;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+/* Button
+==============*/
+
+.btn {
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 500;
+    background-color: #2B7DED;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 12px 35px;
+    display: inline-block;
+    line-height: 1.1;
+    transition: background .2s linear;
+}
+
+.btn:hover {
+    background-color: #1866d1;
+}
