@@ -1,0 +1,78 @@
+
+<html>
+
+<head>
+<meta content="text/html; charset=windows-1251" http-equiv="Content-Type">
+<script>
+ dig0 = new Image(); dig0.src = "dg0.gif";
+ dig1 = new Image(); dig1.src = "dg1.gif";
+ dig2 = new Image(); dig2.src = "dg2.gif";
+ dig3 = new Image(); dig3.src = "dg3.gif";
+ dig4 = new Image(); dig4.src = "dg4.gif";
+ dig5 = new Image(); dig5.src = "dg5.gif";
+ dig6 = new Image(); dig6.src = "dg6.gif";
+ dig7 = new Image(); dig7.src = "dg7.gif";
+ dig8 = new Image(); dig8.src = "dg8.gif";
+ dig9 = new Image(); dig9.src = "dg9.gif";
+</script>
+<title>Time</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+<div align="center"><div align="center"><center>
+
+<table bgColor="#000000" border="1" cellSpacing="3" bordercolorlight="#FFFFFF"
+bordercolordark="#FFFFFF" bordercolor="#000000">
+<TBODY>
+  <tr>
+    <td><img name="dg1" width="23" height="28"><img name="dg2" width="23" height="28"><img
+    src="dgc.gif" width="23" height="28"><img name="dg3" width="23" height="28"><img
+    name="dg4" width="23" height="28"><img src="dgp.gif" width="23" height="28"><img
+    name="dg5" width="23" height="28"><img name="dg6" width="23" height="28"></td>
+  </tr>
+</TBODY>
+</table>
+</center></div><script language="JavaScript">
+    function clockTick()
+    {
+	var text = "" 
+	var now = new Date()
+	var secunde = now.getSeconds()
+	var minute = now.getMinutes()
+	var hour = now.getHours()
+	hour = (hour == 0) ? 12 : hour
+	if (minute < 10)
+		minute = "0" + minute 
+	if (secunde < 10)
+		secunde = "0" + secunde
+	now = null
+	minute += ""
+	hour += ""
+	secunde += ""
+		setjpg(hour.charAt(0),document.dg1);
+		setjpg(hour.charAt(1),document.dg2);
+		setjpg(minute.charAt(0),document.dg3);
+		setjpg(minute.charAt(1),document.dg4);
+		setjpg(secunde.charAt(0),document.dg5);
+		setjpg(secunde.charAt(1),document.dg6);
+		setTimeout("clockTick()", 1000);
+	    }
+function setjpg(num,docobj)
+{
+	if (num=="0") docobj.src=dig0.src
+	if (num=="1") docobj.src=dig1.src
+	if (num=="2") docobj.src=dig2.src
+	if (num=="3") docobj.src=dig3.src
+	if (num=="4") docobj.src=dig4.src
+	if (num=="5") docobj.src=dig5.src
+	if (num=="6") docobj.src=dig6.src
+	if (num=="7") docobj.src=dig7.src
+	if (num=="8") docobj.src=dig8.src
+	if (num=="9") docobj.src=dig9.src
+}
+	    clockTick();
+	    -->
+	</script>
+</div>
+</body>
+</html>

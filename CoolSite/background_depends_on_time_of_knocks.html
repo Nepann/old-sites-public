@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>Background color depends on the time of day</title>
+
+<script language="JavaScript">
+theTime = new Date();
+theHour = theTime.getHours();
+if(theHour>6&&theHour<18){
+  document.write('<body background ="day.gif" text="black">');
+}
+else{
+  document.write('<body background ="night.gif" text="white">');
+}
+</script>
+</head>
+
+<body>
+<p align="center"><font size="4"><b>Background color depends on the time of day ^_^</b></font></p>
+</body>
+</html>
