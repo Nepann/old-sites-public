@@ -1,0 +1,90 @@
+/* Body */
+ 
+body {
+    margin: 0;
+    font-family: Comic Sans MS, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: #e4f7f0;
+}
+
+/* Auth */
+
+.auth {
+    width: 260px;
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.auth-title {
+    margin: 0 0 15px;
+    font-size: 20px;
+    color: cornflowerblue;
+    text-align: center;
+}
+
+/* Input */
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.input {
+    display: block;
+    width: 238px;
+    padding: 8px 10px;
+    border: 2px dashed #666c6a;
+    font-family: inherit;
+    font-size: 12px;
+    background-color: white;
+}
+
+.input:focus {
+    outline: none;
+    border-color: #000000;
+}
+
+/* Select */
+
+.select {
+    display: block;
+    width: 260px;
+    height: 35px;
+    padding: 8px 10px;
+    border: 2px dashed #666c6a;
+    font-family: inherit;
+    font-size: 12px;
+    background-color: white;
+}
+
+.select:focus {
+    outline: none;
+    border-color: #000000;
+}
+
+/*Buttons*/
+
+.btn {
+    display: block;
+    width: 260px;
+    margin-bottom: 15px;
+    border: 2px dashed black;
+    color: cyan;
+    background-color: darkorange;
+    font-family: inherit;
+    padding: 10px;
+    
+}
+
+.btn:hover,
+.btn:focus{
+    cursor: pointer;
+    background-color: #d67c0e;
+}
+
+.btn:active {
+    background-color: #b56c13;
+}
+
+
